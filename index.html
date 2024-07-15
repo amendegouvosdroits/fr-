@@ -37,6 +37,33 @@
             padding: 20px;
             box-sizing: border-box;
         }
+        .centered-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .pay-button {
+            background-color: #007BFF; /* Change to your desired blue color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .pay-button:hover {
+            background-color: #0056b3; /* Darker shade for hover effect */
+        }
+        .form-input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
     </style>
     <meta name="description" content="" data-react-helmet="true">
     <meta name="author" content="" data-react-helmet="true">
@@ -89,7 +116,7 @@
                 <div class="sc-eqPNPO ifbDUV">
                     <section style="background-size:initial;background-position:50% 50%;background-repeat:no-repeat;background-attachment:initial" id="section-e4694852" class="sc-dHmInP fRtxXn">
                         <div width="100%" class="sc-ejGVNB cRtAtg">
-                            <div class="sc-eqPNPO ctJlF">
+                            <div class="sc-eqPNPO ifbDUV">
                                 <div style="background-size:initial;background-position:50% 50%;background-repeat:repeat;background-attachment:initial" id="row-0d670f17" class="sc-hUfwpO cxMpjb">
                                     <div size="12" class="sc-fONwsr fqYvJU">
                                         <div class="sc-eqPNPO fczRRp">
@@ -111,27 +138,11 @@
                             <div class="sc-eqPNPO isMfqp">
                                 <div style="background-size:initial;background-position:50% 50%;background-repeat:repeat;background-attachment:initial" id="row-25f487c5" class="sc-hUfwpO eWjzbc">
                                     <div size="12" class="sc-fONwsr fqYvJU">
-                                        <div class="sc-eqPNPO gOeewX">
-                                            <div style="background-size:initial;background-position:50% 50%;background-repeat:repeat;background-attachment:initial" id="row-f1c489cf" class="sc-hUfwpO hqrBVX">
-                                                <div size="12" class="sc-fONwsr fqYvJU">
-                                                    <div class="sc-cNQqM iQcdqq">
-                                                        <div class="sc-iGPElx cxTelw">
-                                                            <input type="text" name="tax_number" placeholder="Numéro de télépaiement" value="" id="form-input-86032092" class="sc-etwtAo gwWCoK">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-cNQqM csLQzL">
-                                                        <div id="text-6c6ef051" font-size="20" font-family="Open Sans" color="rgba(85, 85, 85, 1)" class="sc-rBLzX hFHRNp">
-                                                            <div>
-                                                                <p dir="ltr"><span style="color: rgba(117, 117, 117, 1)">14 ou 18 chiffres</span></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-cNQqM iQcdqq">
-                                                        <div class="sc-iGPElx cxTelw">
-                                                            <input type="email" name="email" placeholder="Email" value="" id="form-input-b1ef6e72" class="sc-etwtAo gwWCoK">
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="sc-eqPNPO kPiwvR">
+                                            <div class="sc-hjRWVT fsJHfl">
+                                                <picture class="sc-iybRtq dzhPKS">
+                                                    <img id="image-6e1ad72b" src="https://d1yei2z3i6k35z.cloudfront.net/8593593/6692fe161ba99_Sans-titre.PNG" width="799" loading="lazy" class="sc-jrIrqw hEJlDR">
+                                                </picture>
                                             </div>
                                         </div>
                                     </div>
@@ -141,17 +152,54 @@
                     </section>
                 </div>
                 <div class="sc-eqPNPO ifbDUV">
+                    <section style="background-size:initial;background-position:50% 50%;background-repeat:no-repeat;background-attachment:initial" id="section-305f84f9" class="sc-dHmInP fRtxXn">
+                        <div width="100%" class="sc-ejGVNB cRtAtg">
+                            <div class="sc-eqPNPO ifbDUV">
+                                <div style="background-size:initial;background-position:50% 50%;background-repeat:repeat;background-attachment:initial" id="row-72af28a4" class="sc-hUfwpO eWjzbc">
+                                    <div size="12" class="sc-fONwsr fqYvJU">
+                                        <div class="sc-eqPNPO fsCzNC">
+                                            <div class="sc-hjRWVT fsJHfl">
+                                                <picture class="sc-iybRtq gzdzlw">
+                                                    <img id="image-aeb19aef" src="https://d1yei2z3i6k35z.cloudfront.net/8593593/6692fe21e5a22_e.PNG" width="799" loading="lazy" class="sc-jrIrqw hwyMib">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="sc-eqPNPO ifbDUV centered-form">
                     <section style="background-size:initial;background-position:50% 50%;background-repeat:no-repeat;background-attachment:initial" id="section-ebc45366" class="sc-dHmInP fRtxXn">
                         <div width="100%" class="sc-ejGVNB cRtAtg">
                             <div class="sc-eqPNPO ifbDUV">
                                 <div style="background-size:initial;background-position:50% 50%;background-repeat:repeat;background-attachment:initial" id="row-ba1749b8" class="sc-hUfwpO eWjzbc">
                                     <div size="12" class="sc-fONwsr fqYvJU">
-                                        <div class="sc-cNQqM gKwLxn">
-                                            <button id="button-5ad6942f" class="sc-bdVaJa huUGJG">
-                                                <div class="sc-bwzfXH eqoTOr">PAYEZ</div>
-                                            </button>
+                                        <div class="sc-cNQqM iQcdqq">
+                                            <div class="sc-iGPElx cxTelw">
+                                                <input type="text" name="telepaiement" placeholder="Numéro de télépaiement" value="" id="form-input-telepaiement" class="form-input">
+                                                <p style="color: rgba(117, 117, 117, 1);">14 ou 18 chiffres</p>
+                                            </div>
+                                            <div class="sc-cNQqM iQcdqq">
+                                                <div class="sc-iGPElx cxTelw">
+                                                    <input type="email" name="email" placeholder="Email" value="" id="form-input-email" class="form-input">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                              
+                              
+                              
+                               
+                                  
+                                  
+                                   <div class="sc-cNQqM gKwLxn">
+                                  
+                                  
+                                  
+                                    <button id="button-payez" class="pay-button">PAYEZ</button>
                                 </div>
                             </div>
                         </div>
